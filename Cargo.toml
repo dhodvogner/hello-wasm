@@ -1,0 +1,30 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+authors = ["Daniel Hodvogner <dhodvogner@gmail.com>"]
+edition = "2018"
+description = "Trying out Rust - WASM - JS"
+license = "WTFPL"
+repository = "https://github.com/dhodvogner/hello-wasm.git"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# js-sys = "0.3.25" # Seems like unused?
+wasm-bindgen = "0.2.48"
+
+[dependencies.web-sys]
+version = "0.3.4"
+features = [
+  'Document',
+  'Element',
+  'HtmlElement',
+  'HtmlInputElement',
+  'Node',
+  'MouseEvent',
+  'EventTarget',
+  'Window',
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
