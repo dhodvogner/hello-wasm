@@ -49,7 +49,6 @@ pub fn run() -> Result<(), JsValue> {
 
     // Add click event listener to button
     let div = Rc::new(div); // A new single-threaded reference-counting pointer.
-    let input = Rc::new(input);
     {
         let div = div.clone();
         let closure = Closure::wrap(Box::new(move |_event: web_sys::MouseEvent| {
