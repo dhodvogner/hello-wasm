@@ -1,3 +1,11 @@
+## Rust eviroment setup
+```bash
+# install rust
+$ curl https://sh.rustup.rs -sSf | sh
+# install wasm-pack
+$ cargo install wasm-pack
+```
+
 ## Build and Run
 ```bash
 $ wasm-pack build
@@ -6,6 +14,9 @@ $ npm i
 $ npm start
 ```
 
-## Useful links 
+## Useful links
+https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm
+
 https://rustwasm.github.io/wasm-bindgen/examples/paint.html
+
 https://rustwasm.github.io/wasm-bindgen/api/wasm_bindgen/index.html
