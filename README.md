@@ -18,7 +18,9 @@ $ npm start
 * https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm
 * https://rustwasm.github.io/wasm-bindgen/examples/paint.html
 * https://rustwasm.github.io/wasm-bindgen/api/wasm_bindgen/index.html
+* https://crates.io/ (the npm of rust)
 
 ## Try out / Learn more
 * https://github.com/wasm-tool/wasm-pack-plugin#readme (wasm-pack in webpack to hot reload)
 * https://github.com/koute/stdweb (wasm_bindgen library alternative)
+* https://rocket.rs/ (web framework like express)
