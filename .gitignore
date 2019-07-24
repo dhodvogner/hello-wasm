@@ -3,4 +3,5 @@
 Cargo.lock
 /pkg
 /site/node_modules
+/site/pkg
 /site/package-lock.json
